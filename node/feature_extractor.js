@@ -15,7 +15,7 @@ for (let i=0;i<samples.length;i++) {
    );
    const functions = featureFunctions.inUse.map((f) => f.function);
    sample.point = functions.map((f) => f(paths));
-   utils.printProgress(i,samples.length-1);
+   // utils.printProgress(i,samples.length-1);
 }
 
 const featureNames = featureFunctions.inUse.map((f) => f.name);
