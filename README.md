@@ -1,6 +1,6 @@
 # SketchSense
 
-The code within this repository is designed to meticulously collect and preprocess the drawing data. Furthermore, it employs sophisticated algorithms to extract a comprehensive set of parameters including height, width, roundness, elongation, and complexity. These refined features are then channeled into a K-Nearest Neighbors (KNN) model, facilitating accurate predictions of the generated drawings.
+The code within this repository is designed to meticulously collect and preprocess the drawing data. Furthermore, it employs sophisticated algorithms to extract a comprehensive set of parameters including height, width, roundness, elongation, and complexity. These refined features are then channeled into a K-Nearest Neighbors (KNN) model, facilitating accurate predictions of the drawings drawn by the user.
 
 # About Project
 
