@@ -22,8 +22,8 @@
          <div id="confusionContainer"></div>
       </div>
       <div id="controlPanel">
-         <button onClick="toggleInput()">Toggle Input</button>
-         <button onClick="toggleOutput()">Toggle Output</button>
+         <button onClick="toggleInput()">Toggle Drawing Canvas</button>
+         <button onclick="window.location.href='creator.html'">Contribute</button>
          <div id="statistics"></div>
       </div>
       <div id="container"></div>
@@ -131,7 +131,11 @@
             point = functions.map((f) => f(paths));
             utils.normalizePoints([point], minMax);
             const { label, nearestSamples } = kNN.predict(point);
-            predictedLabelContainer.innerHTML = "Is it a " + label + " ?";
+            if (paths && paths.length>0) {
+               predictedLabelContainer.innerHTML = "Is it a " + label + " ?";
+            } else {
+               predictedLabelContainer.innerHTML = "Please draw something!";
+            }
             chart.showDynamicPoint(point, label, nearestSamples);
          }
       </script>
