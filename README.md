@@ -14,7 +14,7 @@ For the first part of the project, creator.html file is created. This webpage al
   3. After drawing the last sketch, user would see a thank you page and a json file containing information of each of the 8 sketches would get downloaded to his/her pc. 
 
 For the second part of the project, viewer.html file is created. This webpage allows user to play with the site where user can draw any sketch of any of 8 cases and the website would try to predict the sketch. Below is the step wise explainattion as how it is working:
-  1. whenever user will be on https://sketchsense.onrender.com/web/viewer.html page, he/she would be able to see page where he/she would be able to see whole dataset training as well as testing.
+  1. whenever user will be on https://sketch-sense-pulakpj9s-projects.vercel.app/web/viewer.html page, he/she would be able to see page where he/she would be able to see whole dataset training as well as testing.
   2. On scrolling the page, also user can see the testing results of the model like in which type of sketches the model is able to predict what. This would help user to more closely uderstand the model.
   3. Also, A confusion matrix is plotted in right side of the screen which helps to evaluate the model and analysis the mistakes done by model more accurately.
   4. also, 2 buttons on the top right corner of the page code be seen.
