@@ -9,7 +9,7 @@ This project is divided in two parts:
   2. Prediction of drawings drawn by the user.
 
 For the first part of the project, creator.html file is created. This webpage allows user to contribute to dataset. Below is the step wise explainattion as how it is working:
-  1. whenever user will be on https://sketchsense.onrender.com/web/creator.html page, he/she would be able to see page where he/she would be asked to enter their name.
+  1. whenever user will be on https://sketch-sense-pulakpj9s-projects.vercel.app/web/creator.html page, he/she would be able to see page where he/she would be asked to enter their name.
   2. As soon as one would enter name and click next he/she would be asked to draw sketches of each of the 8 classes (car, fish, tree, bicycle, house, pencil, guitar, clock).
   3. After drawing the last sketch, user would see a thank you page and a json file containing information of each of the 8 sketches would get downloaded to his/her pc. 
 
