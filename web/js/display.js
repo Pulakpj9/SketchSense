@@ -32,6 +32,7 @@ function createRow(container, studentName, samples) {
       const img = document.createElement("img");
       img.src = constants.IMG_DIR + "/" + id + ".png";
       img.classList.add("thumb");
+      img.loading = "lazy";
       if (utils.flaggedUsers.includes(student_id)) {
          img.classList.add("blur");
       }
